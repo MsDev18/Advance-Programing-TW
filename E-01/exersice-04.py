@@ -1,3 +1,4 @@
+print("------------<<< WELCOME >>>------------")
 a = int(input("enter first number -> "))
 b = int(input("enter second number -> "))
 
@@ -9,9 +10,14 @@ b = int(input("enter second number -> "))
 # print(a , " % " , b , " = " , a % b)
 
 
+print("------------<<< Calculator >>>------------")
 
 print(f'{a} + {b} = {a + b}')
 print(f'{a} - {b} = {a - b}')
 print(f'{a} * {b} = {a * b}')
 print(f'{a} / {b} = {a / b}')
 print(f'{a} % {b} = {a % b}')
+
+
+
+print("------------<<< END >>>------------")
